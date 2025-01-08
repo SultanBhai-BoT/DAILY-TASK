@@ -1,14 +1,14 @@
 # 1. Calculate the multiplication and sum of two numbers 
 
-num1=int(input("Enter a first number:"))
-num2=int(input("Enter a second number:"))
+number1=int(input("Enter a first number:"))
+number2=int(input("Enter a second number:"))
 
-multiplication = num1 * num2
+multiplication = number1 * number2
 print("The multiplication of numbers is: ",multiplication)
 
-Add = num1 + num2
+Addition = number1 + number2
 ("The multiplication of numbers is: ",multiplication)
-print("The sum of numbers:",Add )
+print("The Addition of numbers:",Addition)
 
 ---------------------------------------------------------------------------------------------------
 

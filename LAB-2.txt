@@ -1,0 +1,63 @@
+#(1) Using input() function take one number from the user and using ternary operators check whether the number is even or odd.
+
+number=int(input("Enter your number which is u want check wether it's even or odd:"))
+
+#check the number it's even or odd with the help of ternary operator
+result="even" if number %2 == 0 else "odd"
+
+#printing the result
+print(f"The Entered number {number} is {result}")
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+#(2) Using input function take two number and then swap the number
+
+number1=int(input("Enter the number 1 what u want to swap:"))
+number2=int(input("Enter the number 2 wahat u want to swap:"))
+
+#Before the number swaping
+print("Before the number swapping numbers: \n number1=",number1,"\n number2=",number2)
+
+#Swapping number logic(creating one variable name as temporary for swapping)
+temporary=number1
+number1=number2
+number2=temporary
+
+#After the number swapping
+print("After the number swapping numbers:\n number1=",number1,"\n number2=",number2)
+
+-------------------------------------------------------------------------------------------------------------
+
+#(3)Write a Program to Convert Kilometers to Miles
+
+#input taken from the user
+kilometers = float(input("Enter the distance in kilometers: "))
+
+#1 kilometer is approximately equal to 0.621371 miles.
+conversion_value=0.621371
+
+# Converting kilometers to miles
+miles = kilometers * conversion_value
+
+print(f"{kilometers} kilometers is equal to the= {miles}")
+
+----------------------------------------------------------------------------------------------------------------------------
+
+#(4)Find the Simple Interest on Rs. 200 for 5 years at 5% per year.
+
+#Define a variable according to the Question and values are given
+price=200
+
+rate_of_intrest=5
+
+time=5
+
+#calculating simple intrest
+simple_intrest=(price*rate_of_intrest*time)/100
+
+print("The Simple Intrest for a given Question is=",simple_intrest)
+
+
+

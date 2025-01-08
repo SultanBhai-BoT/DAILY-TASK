@@ -3,11 +3,12 @@
 number1=int(input("Enter a first number:"))
 number2=int(input("Enter a second number:"))
 
+#multiplication of a numbers
 multiplication = number1 * number2
 print("The multiplication of numbers is: ",multiplication)
 
+#Addition of a numbers
 Addition = number1 + number2
-("The multiplication of numbers is: ",multiplication)
 print("The Addition of numbers:",Addition)
 
 ---------------------------------------------------------------------------------------------------

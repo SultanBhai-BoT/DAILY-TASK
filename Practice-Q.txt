@@ -14,14 +14,14 @@ print("The Addition of numbers:",Addition)
 ---------------------------------------------------------------------------------------------------
 
 #2.Declare two variables and print that which variable is largest using ternary operators
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
 
 # Determine the largest number using a ternary operator
-largest_num = num1 if num1 > num2 else num2
+largest_number = number1 if number1 > number2 else number2
 
 # Print the result
-print("The largest number is:",largest_num)
+print("The largest number is:",largest_number)
 
 
 ------------------------------------------------------------------------------------
@@ -31,7 +31,7 @@ print("The largest number is:",largest_num)
 # Take input from user
 celsius = float(input("Enter the temperature in Celsius: "))
 
-# Convert to Fahrenheit
+# Converting to Fahrenheit
 fahrenheit = (celsius * 9/5) + 32
 
 print(f"{celsius}°C is equal to {fahrenheit}°F")
@@ -41,16 +41,16 @@ print(f"{celsius}°C is equal to {fahrenheit}°F")
 # 4. Python program to find the area of a triangle whose sides are given
 
 # Take input from the user
-a = float(input("Enter the first side: "))
-b = float(input("Enter the second side: "))
-c = float(input("Enter the third side: "))
+first_side= float(input("Enter the first side: "))
+second_side= float(input("Enter the second side: "))
+Third_side= float(input("Enter the third side: "))
 
 # Calculate the semi-perimeter
-s = (a + b + c) / 2
+semi_perimeter = (first_side+second_side+Third_side) / 2
 
 # Calculate the area
-area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
+area_of_triangle = (semi_perimeter * (semi_perimeter - first_side) * (semi_perimeter - second_side) * (semi_perimeter - Third_side)) ** 0.5
 
-print("The area of the triangle is:",area)
+print("The area of the triangle is:",area_of_triangle)
 
------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------

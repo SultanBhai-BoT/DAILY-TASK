@@ -1,0 +1,94 @@
+# Declare a div() function with two parameters. Then call the function and pass two
+numbers and display their division.
+
+ def division(a, b): 
+
+    if b == 0: 
+
+        return "Cannot divide by zero" 
+
+    return a / b 
+
+ 
+
+# Calling the function with two numbers 
+
+result = division(10, 2) 
+
+ 
+
+# Displaying the result 
+
+print("The result of the division is:", result) 
+-----------------------------------------------------------------------------------------------------------------------
+# Declare a square() function with one parameter .Then call the function and pass one 
+  number and display the square of that number . 
+ 
+def square(number): 
+
+    return number * number 
+
+ 
+
+# Calling the function and passing a number 
+
+result = square(5) 
+
+
+# Display the result 
+
+print("The square of 5 is:", result) 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+# Using max() and min() functions display the maximum and minimum of 5 random
+numbers.
+
+
+# List of 5 random numbers 
+numbers = [22, 46, 11, 75, 37] 
+# Using max() to find the maximum number 
+maximum = max(numbers) 
+
+# Using min() to find the minimum number 
+minimum = min(numbers) 
+
+  
+# Displaying the results 
+
+print("The maximum number is:", maximum) 
+
+print("The minimum number is:", minimum) 
+
+------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+# Accept a name from the user and display that in lower case using lower() function
+
+# Accept the name from the user 
+
+ name=input("Enter your name")
+
+# Converting your name in lower case
+ lowercase_name= name.lower()
+
+#Dasplaying the name in lowercase
+print("your name in lowercase is", lowercase_name)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+# Write a lambda function that takes one argument and returns 'Positive' if the number is
+greater than 0, 'Negative' if it's less than 0, and 'Zero' if it's 0. Test it with different
+numbers
+
+# lambda function to check if number positive, negative, or zero
+
+check_number= lambda x:'positive' if x>0 else 'negative' if x<0  else 'zero'
+
+# Testing the lambda function with different numbers 
+
+print(check_number(15))   # Output: Positive 
+
+print(check_number(-5))   # Output: Negative 
+
+print(check_number(0))    # Output: Zero 
+
+  
